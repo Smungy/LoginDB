@@ -7,6 +7,8 @@ import javax.swing.JOptionPane;
 
 public class ConnectionMySQL {
     
+    //Conexion a la base de datos, usa tus credenciales y tu puerto.
+    
     private static final String user = "your_dbuser";
     private static final String pass = "your_dbpass";
     private static final String url = "jdbc:mysql://localhost:3306/logindb?characterEncoding=utf8";
